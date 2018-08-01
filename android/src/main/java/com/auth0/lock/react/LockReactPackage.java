@@ -143,7 +143,6 @@ public class LockReactPackage implements ReactPackage {
      * NOT USED. This is a required override
      * @see ReactPackage
      */
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return new ArrayList<>();
     }
